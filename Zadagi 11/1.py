@@ -1,23 +1,23 @@
-# print ("Введите первое число ")
-# a = int (input())
-# print ("Введите второе  число ")
-# b = int (input())
-#
-# def calculator (a,b,s):
-#     if s =="+":
-#         return a+b
-#     if s =="-":
-#         return a-b
-#     if s =="*":
-#         return a*b
-#     if s =="/":
-#         if b==0:
-#             return "На 0 делить нельзя дурачок !"
-#         else :
-#             return a/b
-# print ("Введите знак операции")
-# s=input()
-# print (calculator(a, b, s))
+print ("Введите первое число ")
+a = int (input())
+print ("Введите второе  число ")
+b = int (input())
+
+def calculator (a,b,s):
+    if s =="+":
+        return a+b
+    if s =="-":
+        return a-b
+    if s =="*":
+        return a*b
+    if s =="/":
+        if b==0:
+            return "На 0 делить нельзя дурачок !"
+        else :
+            return a/b
+print ("Введите знак операции")
+s=input()
+print (calculator(a, b, s))
 
 #Допонительно
 # print ("Предупреждаю! На ноль нельзя делить ! Если ты это не знал ,иди в детский сад неуч! ")
@@ -44,9 +44,9 @@
 
 
 
-#Дополнительное , в этом случае пользователю выводятся все операции над его числами
-# a = int(input())
-# b = int(input())
+# Дополнительное , в этом случае пользователю выводятся все операции над его числами
+# a = float (input())
+# b =  float(input())
 # k=0
 #
 # s=a+b
@@ -77,4 +77,4 @@
 #     return(d)
 # print ("Деление чисел  :")
 # print (calculator(a,b))
-#
+# #

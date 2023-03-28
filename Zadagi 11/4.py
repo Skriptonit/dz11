@@ -1,21 +1,19 @@
-# def count  (a):
-#     while a <11:
-#         return (0,1,2,3,4,5,6,7,8,9,10)
-# a=10
-# print (count (a))
-#
-#
-#
-# def count(a):
-#     if (a % 2 == 0):
-#
-#         print(a)
-#
-#     else:
-#         print(a)
-#
-#
-# for i in range(0, 11):
-#     count(i)
-#
 
+#под а
+# def count():
+#     scetcik = 0
+#     while scetcik  <= 10:
+#         print(scetcik )
+#         scetcik += 1
+# count()
+
+#под б
+# ronaldyy = 0
+# def count():
+#     global ronaldyy
+#     if ronaldyy<= 10:
+#         print(ronaldyy,"SUU")
+#         ronaldyy += 1
+#         count()
+#
+# count()

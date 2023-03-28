@@ -1,20 +1,34 @@
-#
-# def count(a):
-#     while a <12:
-#        return ('Чисел всего 11 .Из них 6 четных:(0,2,4,6,8,10) и 5 нечетных(1,3,5,7,9)')
-#
-# a = 11
-# print(count(a))
-#
-#
-# def count(a):
-#     if (a % 2 == 0):
-#         print(a, "четное")
+#под а
+
+def count():
+    chetn = 0
+    nechetn = 0
+    n = 10
+    a = 1
+    while a <= 10:
+        if a % 2 == 0:
+            chetn  += 1
+        elif a%2!=0:
+            nechetn += 1
+        a += 1
+    return f'четные {chetn }, нечетные {nechetn}'
+print(count())
+
+
+# #под б
+# chetn = 0
+# nechetn = 0
+# def rec(i):
+#     if i > 0:
+#         global chetn
+#         global nechetn
+#         if i%2 == 0:
+#              chetn += 1
+#         else:
+#             nechetn += 1
+#         return rec(i - 1)
 #     else:
-#         print(a, 'Нечетное ')
+#         print(f'четные {chetn }, нечетные {nechetn}')
+#         return
 #
-# for i in range(0, 11):
-#     count(i)
-# print("Итого : количество четных элементов -6; нечетных элементов -5")
-#
-#
+# rec(10)

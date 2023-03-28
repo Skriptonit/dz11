@@ -1,11 +1,22 @@
-#Программа предназначена для нахождения факториала сложным путем , и для нахождения умножения
-# нескольких заданых чисел (это  дополнительно)!Удачи в наченанеях!
-def factorial(number):
-    z=1
-    for i in range (number):
-        s = int ( input())
-        z*=s
-        print (z)
+#под А
+# def factorial(n):
+#     i=0
+#     while i <11:
+#      res = 1
+#      for i in range(1, n + 1):
+#          res *= i
+#      return res
+#     i +=1
+#
+# print ("Ведите число :")
+# n=int(input())
+# print(factorial(n))
 
-number = int(input('Введите число: '))
-print(factorial(number))
+#Под Б
+# def fac(rec):
+#     if rec == 0:
+#         return 1
+#     return fac(rec - 1) * rec
+#
+#
+# print(fac(5))
